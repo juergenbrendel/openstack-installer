@@ -22,7 +22,10 @@ Developers should be started by installing the following simple utility:
     export PATH=`pwd`/vendor/librarian-puppet-simple/bin/:$PATH
 
 Once this library is installed, you can run the following command from this project's
-root directory. This will use the Puppetfile to clone the openstack modules and the COE manifests, into the modules directory, and can be easily configured to pull from your own repo instead of the Cisco or Stackforge repos. The default is to use the stackforge modules
+root directory. This will use the Puppetfile to clone the openstack modules and the
+COE manifests, into the modules directory, and can be easily configured to pull from
+your own repo instead of the Cisco or Stackforge repos. The default is to use the
+[[stackforge]] modules
 
 To use the CiscoSystems releases of the puppet modules:
 
